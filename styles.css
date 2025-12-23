@@ -3,8 +3,8 @@
     --bg-color: #0f172a; 
     --bg-gradient: url("images/fondo.jpg");
 
-    --text-main: #e2e8f0;
-    --text-secondary: #94a3b8;
+    --text-main: #fbff00;
+    --text-secondary: #ffae00;
     
 
     --primary: #38bdf8;       
@@ -17,7 +17,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, sans-serif; 
     background: var(--bg-gradient) center/cover no-repeat fixed;
     background-color: var(--bg-color);
     color: var(--text-main);
