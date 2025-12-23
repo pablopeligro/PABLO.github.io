@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="styles.css">
+
+   <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts/functions.js"></script>
+</head>
+<body>
+
+    <header>
+        <div id="headerInfo">
+            <h1>Pablo Ramiro Foronda Iraizos</h1>
+            <p>Estudiante de Ingenieria de Computadores</p>
+        </div>
+        
+    </header>
+
+    <nav>
+        <a href="#about">Sobre mí</a>
+        <a href="#skills">Skills</a>
+        <a href="#academicProjects">Proyectos Académicos</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+  <section id="about" class="fade">
+        <h2>Sobre mí</h2>
+        <p>
+            Soy <strong>Pablo</strong>, estudiante de Ingeniería de Computadores en la Universidad Politecnica de Madrid.
+            Me apasiona la ingeniería, especialmente cuando se trata de resolver problemas complejos mediante un diseño robusto y código limpio.
+        </p>
+        <p>
+            Durante mi formación universitaria, me he enfocado en crear proyectos que no solo funcionen, sino que estén bien fundamentados. 
+            Tengo experiencia en el ciclo completo de desarrollo: desde la toma de requisitos y el modelado con diagramas (como en sistemas de simulación aérea), 
+            hasta la implementación del código y la redacción de memorias técnicas detalladas.
+        </p>
+        <p>
+            Creo firmemente que un buen ingeniero no solo escribe líneas de código, sino que sabe comunicar sus soluciones. 
+            Por eso, en este portafolio encontrarás tanto mis repositorios de software como la documentación académica que respalda cada decisión técnica.
+        </p>
+        <p>
+            Mi objetivo actual es aplicar estos conocimientos en un entorno profesional, seguir aprendiendo nuevas arquitecturas, técnicas y patrones diseñados para solucionar problemas complejos y aportar valor desde el primer día en equipos de desarrollo.
+        </p>
+    </section>
+
+ <section id="skills" class="fade">
+        <h2>Habilidades</h2>
+        
+        <h3>Lenguajes de Programación</h3>
+        <div class="skills-container">
+            <div class="skill">☕ Java</div>
+            <div class="skill">🐍 Python</div>
+            <div class="skill">©️ C</div>
+            <div class="skill">✈️ Ada</div>
+            <div class="skill">🗃️ SQL</div>
+            <div class="skill">🌐 HTML</div>
+        </div>
+
+        <h3>Robótica y Hardware</h3>
+        <div class="skills-container">
+            <div class="skill">🐢 ROS2</div>
+            <div class="skill">🤖 Webots</div>
+            <div class="skill">🔌 ESP32</div>
+            <div class="skill">♾️ Raspberry Pi</div>
+            <div class="skill">⏱️ Sistemas de Tiempo Real</div>
+        </div>
+
+    <h3>Sistemas y Herramientas</h3>
+        <div class="skills-container">
+            <div class="skill">📦 Git / GitHub / GitLab</div>
+            <div class="skill">💻 Virtualización (VirtualBox / UTM)</div>
+            <div class="skill">🐧 Linux / MacOS / Windows</div>
+            <div class="skill">🕸️ Redes de Computadores</div>
+            <div class="skill">🔧 Ensamblaje y Mantenimiento de PC</div>
+        </div>
+    </section>
+
+
+    <section id="academicProjects" class="fade">
+        <h2>Proyectos Académicos y Técnicos</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <img src="images/lamp.jpg" alt="Sistemas Empotrados">
+                <h3>💡 Sistemas Empotrados: Lámpara SMA</h3>
+                <p>Sistema de Monitorización y Actuación (SMA) para lámpara de estudio con sensores de calidad del aire, ruido y control de iluminación/ventilación sobre un microcontrolador PIC16F886.</p>
+                <a class="btn" href="https://github.com/pablopeligro/SISTEMAS-EMPOTRADOS" target="_blank" rel="noopener noreferrer">Ver más</a>
+            </div>
+
+            <div class="project-card">
+                <img src="images/avion.jpg" alt="Sistemas Tiempo Real">
+                <h3>✈️ Sistemas de Tiempo Real: Control de Vuelo</h3>
+                <p>Diseño y modelado de un sistema de control de vuelo, integrando gestión de alertas de altitud crítica y diagramas de secuencia detallados para escenarios de descenso.</p>
+                <a class="btn" href="https://github.com/pablopeligro/SISTEMAS-DE-TIEMPO-REAL" target="_blank" rel="noopener noreferrer">Ver más</a>
+            </div>
+
+            <div class="project-card">
+                <img src="images/raspberry.jpg" alt="Integración HW/SW">
+                <h3>🍓 Prototipo HW: FSS sobre Raspberry Pi</h3>
+                <p>Adaptación del software de simulación de vuelo (FSS) para sistema embebido en Raspberry Pi. Implementación de la integración HW/SW para el control físico de actuadores en tiempo real.</p>
+                <a class="btn" href="https://github.com/pablopeligro/Prototipo-Hw---Integraci-n-Sw-Hw.-FSS-sobre-Raspberry-Pi" target="_blank" rel="noopener noreferrer">Ver más</a>
+            </div>
+
+            <div class="project-card">
+                <img src="images/robotica.png" alt="ROS2 Webots">
+                <h3>🤖 Robótica: Visión y Control en ROS 2</h3>
+                <p>Implementación de un nodo de control utilizando ROS 2 para la navegación autónoma de un robot sigue-líneas dentro del simulador físico Webots.</p>
+                <a class="btn" href="https://github.com/pablopeligro/ROS2-WEBOTS-Vision-Control-Node" target="_blank" rel="noopener noreferrer">Ver más</a>
+            </div>
+
+            <div class="project-card">
+                <img src="images/empatia.jpg" alt="EmpatIA">
+                <h3>👁️ Visión Artificial: EmpatIA</h3>
+                <p>Sistema de visión artificial para la clasificación de emociones basado en heurísticas de geometría facial (topología) utilizando las librerías MediaPipe Face Mesh y OpenCV.</p>
+                <a class="btn" href="https://github.com/pablopeligro/EmpatIA-Emotion-Recognition" target="_blank" rel="noopener noreferrer">Ver más</a>
+            </div>
+
+            <div class="project-card">
+                <img src="images/nube.png" alt="Redes Cisco">
+                <h3>🌐 Redes: Infraestructura Empresarial</h3>
+                <p>Diseño y simulación de topologías de red complejas utilizando Cisco Packet Tracer. Incluye la configuración avanzada de routers, switches y dispositivos finales.</p>
+                <a class="btn" href="https://github.com/pablopeligro/REDES-DE-COMPUTADORES-RED-EMPRESARIAL" target="_blank" rel="noopener noreferrer">Ver más</a>
+            </div>
+
+            <div class="project-card">
+                <img src="images/seguridad.jpg" alt="Seguridad">
+                <h3>🔐 Seguridad en Sistemas y Redes</h3>
+                <p>Resolución de diferentes retos e informes técnicos acerca de mini-proyectos relacionados con la auditoría y seguridad en sistemas y redes.</p>
+                <a class="btn" href="https://github.com/pablopeligro/SEGURIDAD-EN-SISTEMAS-Y-REDES" target="_blank" rel="noopener noreferrer">Ver más</a>
+            </div>
+
+            <div class="project-card">
+                <img src="images/pubmed.png" alt="Web Scraper">
+                <h3>🕸️ Data Mining: PubMed Scraper</h3>
+                <p>Script de automatización desarrollado para la extracción masiva de artículos y metadatos biomédicos desde la base de datos PubMed utilizando peticiones HTTP.</p>
+                <a class="btn" href="https://github.com/pablopeligro/PubMed-Web-Scraper" target="_blank" rel="noopener noreferrer">Ver más</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="personalProjects" class="fade">
+        <h2>Proyectos Personales</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <img src="images/portfolio.png" alt="Portfolio Pablo">
+                <h3>📂 PABLO.github.io</h3>
+                <p>Desarrollo y despliegue de este portafolio personal como repositorio central de trabajos de carrera y proyectos profesionales.</p>
+                <a class="btn" href="https://github.com/pablopeligro/PABLO.github.io" target="_blank" rel="noopener noreferrer">Ver Repositorio</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="contact">
+    <h2>Contacto</h2>
+    <p>Email: pabloyjorge22@gmail.com</p>
+    <p>Teléfono: +34 663683022</p>
+    
+    <div style="margin-top: 20px;">
+        <a href="https://github.com/pablopeligro" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    
+    <p style="margin-top: 10px; font-size: 0.9em; color: #888;">
+        © 2025 Pablo Ramiro Foronda Iraizos.<br>
+        Licencia: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>
+    </p>
+</footer>
+
+</body>
+</html>
